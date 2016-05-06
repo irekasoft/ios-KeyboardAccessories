@@ -13,6 +13,9 @@
 		A33F69181CDD1AA80024228A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33F69161CDD1AA80024228A /* Main.storyboard */; };
 		A33F691A1CDD1AA80024228A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33F69191CDD1AA80024228A /* Assets.xcassets */; };
 		A33F691D1CDD1AA80024228A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33F691B1CDD1AA80024228A /* LaunchScreen.storyboard */; };
+		A33F69261CDD215B0024228A /* MYInputAccessoryToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F69251CDD215B0024228A /* MYInputAccessoryToolbar.m */; };
+		A33F69291CDD2DF00024228A /* IRInputAccessoryToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F69281CDD2DF00024228A /* IRInputAccessoryToolbar.m */; };
+		A33F694F1CDD381B0024228A /* FontsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F694E1CDD381B0024228A /* FontsTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		A33F69191CDD1AA80024228A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A33F691C1CDD1AA80024228A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33F691E1CDD1AA80024228A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33F69241CDD215B0024228A /* MYInputAccessoryToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYInputAccessoryToolbar.h; sourceTree = "<group>"; };
+		A33F69251CDD215B0024228A /* MYInputAccessoryToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYInputAccessoryToolbar.m; sourceTree = "<group>"; };
+		A33F69271CDD2DF00024228A /* IRInputAccessoryToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRInputAccessoryToolbar.h; sourceTree = "<group>"; };
+		A33F69281CDD2DF00024228A /* IRInputAccessoryToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRInputAccessoryToolbar.m; sourceTree = "<group>"; };
+		A33F694D1CDD381B0024228A /* FontsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontsTVC.h; sourceTree = "<group>"; };
+		A33F694E1CDD381B0024228A /* FontsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontsTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +72,16 @@
 				A33F69131CDD1AA80024228A /* ViewController.h */,
 				A33F69141CDD1AA80024228A /* ViewController.m */,
 				A33F69161CDD1AA80024228A /* Main.storyboard */,
+				A33F694D1CDD381B0024228A /* FontsTVC.h */,
+				A33F694E1CDD381B0024228A /* FontsTVC.m */,
 				A33F69191CDD1AA80024228A /* Assets.xcassets */,
 				A33F691B1CDD1AA80024228A /* LaunchScreen.storyboard */,
 				A33F691E1CDD1AA80024228A /* Info.plist */,
 				A33F690D1CDD1AA80024228A /* Supporting Files */,
+				A33F69241CDD215B0024228A /* MYInputAccessoryToolbar.h */,
+				A33F69251CDD215B0024228A /* MYInputAccessoryToolbar.m */,
+				A33F69271CDD2DF00024228A /* IRInputAccessoryToolbar.h */,
+				A33F69281CDD2DF00024228A /* IRInputAccessoryToolbar.m */,
 			);
 			path = KeyboardAccessories;
 			sourceTree = "<group>";
@@ -150,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33F69151CDD1AA80024228A /* ViewController.m in Sources */,
+				A33F69261CDD215B0024228A /* MYInputAccessoryToolbar.m in Sources */,
+				A33F69291CDD2DF00024228A /* IRInputAccessoryToolbar.m in Sources */,
 				A33F69121CDD1AA80024228A /* AppDelegate.m in Sources */,
+				A33F694F1CDD381B0024228A /* FontsTVC.m in Sources */,
 				A33F690F1CDD1AA80024228A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +318,7 @@
 				A33F69231CDD1AA80024228A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

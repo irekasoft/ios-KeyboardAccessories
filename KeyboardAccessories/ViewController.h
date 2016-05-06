@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FontsTVC.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+  
+  FontsTVC *fontsTVC;
+  
+  __block Boolean flagForFonts;
+  NSRange selectedRange;
+}
 
+
+@property (weak, nonatomic) IBOutlet UITextView *tv_one;
 
 @end
 
